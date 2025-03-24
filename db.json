@@ -1,0 +1,416 @@
+{
+  "users": [
+    {
+      "_id": "67dcda8232eaa615d3e7dc29",
+      "performingRole": "customer",
+      "fullName": "Mike Hussey",
+      "email": "miniapp.tester01+11@gmail.com",
+      "phone": "17777777777",
+      "address": {
+        "streetNumber": "100",
+        "state": "CA",
+        "apartment": "17 Mile Drive, Pebble Beach, CA, USA",
+        "_id": "67dcda8232eaa615d3e7dc2a"
+      },
+      "status": "active",
+      "createdAt": "2025-03-21T03:18:26.542Z",
+      "updatedAt": "2025-03-21T03:18:26.542Z",
+      "customer": {
+        "_id": "67dcdaa132eaa615d3e7dc32",
+        "createdAt": "2025-03-21T03:18:57.402Z",
+        "updatedAt": "2025-03-21T03:18:57.402Z",
+        "__v": 0
+      },
+      "lastLoginTime": null
+    },
+    {
+      "_id": "67dc2c8c25f693ac3bb03fab",
+      "performingRole": "customer",
+      "fullName": "Mark James",
+      "email": "miniapp.tester03+2@gmail.com",
+      "phone": "13333333333",
+      "address": {
+        "streetNumber": "100",
+        "state": "NY",
+        "apartment": "111 Broadway, New York, NY, USA",
+        "_id": "67dc2c8c25f693ac3bb03fac"
+      },
+      "status": "active",
+      "createdAt": "2025-03-20T14:56:12.684Z",
+      "updatedAt": "2025-03-20T14:56:12.684Z",
+      "customer": {
+        "_id": "67dc2cb225f693ac3bb03fb4",
+        "createdAt": "2025-03-20T14:56:50.684Z",
+        "updatedAt": "2025-03-20T14:56:50.684Z",
+        "__v": 0
+      },
+      "lastLoginTime": null
+    },
+    {
+      "_id": "67dba43c760d0eb7ce70caac",
+      "performingRole": "customer",
+      "fullName": "Isaac",
+      "email": "jobap14318@excederm.com",
+      "phone": "16500000000",
+      "address": {
+        "streetNumber": "100",
+        "state": "FL",
+        "apartment": "Florida 45, Spring Hill, FL, USA",
+        "_id": "67dba43c760d0eb7ce70caad"
+      },
+      "status": "pending",
+      "createdAt": "2025-03-20T05:14:36.892Z",
+      "updatedAt": "2025-03-20T05:14:36.892Z",
+      "lastLoginTime": null
+    },
+    {
+      "_id": "67db3606cfdbb9c8d3080f72",
+      "performingRole": "customer",
+      "fullName": "Mike Jordan",
+      "email": "miniapp.tester02+10@gmail.com",
+      "phone": "11000000011",
+      "address": {
+        "streetNumber": "100",
+        "state": "NY",
+        "apartment": "1111 Franklin Avenue, Garden City, NY, USA",
+        "_id": "67db3606cfdbb9c8d3080f73"
+      },
+      "status": "active",
+      "createdAt": "2025-03-19T21:24:22.692Z",
+      "updatedAt": "2025-03-19T21:24:22.692Z",
+      "lastLoginTime": "2025-03-19T22:02:56.912Z",
+      "customer": {
+        "_id": "67db366ecfdbb9c8d308120e",
+        "createdAt": "2025-03-19T21:26:06.165Z",
+        "updatedAt": "2025-03-19T21:26:06.165Z",
+        "__v": 0
+      }
+    },
+    {
+      "_id": "67db3364cfdbb9c8d3080653",
+      "performingRole": "customer",
+      "fullName": "Solomon",
+      "email": "solomon+19@miniapp.com",
+      "phone": "15555555559",
+      "address": {
+        "streetNumber": "100",
+        "state": "CA",
+        "apartment": "Market Street, San Francisco, CA, USA",
+        "_id": "67db3364cfdbb9c8d3080654"
+      },
+      "status": "pending",
+      "createdAt": "2025-03-19T21:13:08.670Z",
+      "updatedAt": "2025-03-19T21:13:08.670Z",
+      "lastLoginTime": null
+    },
+    {
+      "_id": "67db3267cfdbb9c8d3080639",
+      "performingRole": "customer",
+      "fullName": "Solomon",
+      "email": "solomon+18@miniapp.com",
+      "phone": "15555555558",
+      "address": {
+        "streetNumber": "100",
+        "state": "CA",
+        "apartment": "Market Street, San Francisco, CA, USA",
+        "_id": "67db3267cfdbb9c8d308063a"
+      },
+      "status": "pending",
+      "createdAt": "2025-03-19T21:08:55.260Z",
+      "updatedAt": "2025-03-19T21:08:55.260Z",
+      "lastLoginTime": null
+    },
+    {
+      "_id": "67db280ccfdbb9c8d307ec13",
+      "performingRole": "customer",
+      "fullName": "Yamal Josse",
+      "email": "miniapp.tester02+4@gmail.com",
+      "phone": "11000000009",
+      "address": {
+        "streetNumber": "100",
+        "state": "WA",
+        "apartment": "1113 6th Avenue, Seattle, WA, USA",
+        "_id": "67db280ccfdbb9c8d307ec14"
+      },
+      "status": "active",
+      "createdAt": "2025-03-19T20:24:44.469Z",
+      "updatedAt": "2025-03-19T20:24:44.469Z",
+      "customer": {
+        "_id": "67db282dcfdbb9c8d307ec26",
+        "createdAt": "2025-03-19T20:25:17.627Z",
+        "updatedAt": "2025-03-19T20:25:17.627Z",
+        "__v": 0
+      },
+      "lastLoginTime": null
+    },
+    {
+      "_id": "67db279dcfdbb9c8d307ea12",
+      "performingRole": "customer",
+      "fullName": "Alisson",
+      "email": "alisonlewis@miniapp.com",
+      "phone": "16852815600",
+      "address": {
+        "streetNumber": "100",
+        "state": "NY",
+        "apartment": "510 Madison Avenue, New York, NY, USA",
+        "_id": "67db279dcfdbb9c8d307ea13"
+      },
+      "status": "active",
+      "createdAt": "2025-03-19T20:22:53.892Z",
+      "updatedAt": "2025-03-19T20:22:53.892Z",
+      "lastLoginTime": "2025-03-20T04:17:55.435Z",
+      "customer": {
+        "_id": "67db27d4cfdbb9c8d307ea3d",
+        "createdAt": "2025-03-19T20:23:48.856Z",
+        "updatedAt": "2025-03-19T20:23:48.856Z",
+        "__v": 0
+      }
+    },
+    {
+      "_id": "67db2508cfdbb9c8d307e1d8",
+      "performingRole": "customer",
+      "fullName": "Jason Roy",
+      "email": "miniapp.tester02+3@gmail.com",
+      "phone": "11000000007",
+      "address": {
+        "streetNumber": "100",
+        "state": "WA",
+        "apartment": "777 108th Avenue Northeast, Bellevue, WA, USA",
+        "_id": "67db2508cfdbb9c8d307e1d9"
+      },
+      "status": "active",
+      "createdAt": "2025-03-19T20:11:52.148Z",
+      "updatedAt": "2025-03-19T20:11:52.148Z",
+      "customer": {
+        "_id": "67db2539cfdbb9c8d307e1e6",
+        "createdAt": "2025-03-19T20:12:41.632Z",
+        "updatedAt": "2025-03-19T20:12:41.632Z",
+        "__v": 0
+      },
+      "lastLoginTime": null
+    },
+    {
+      "_id": "67db0cd451e9f271f6cdf72d",
+      "performingRole": "customer",
+      "fullName": "Solomon",
+      "email": "solomon+17@miniapp.com",
+      "phone": "15555555556",
+      "address": {
+        "streetNumber": "100",
+        "state": "CA",
+        "apartment": "Market Street, San Francisco, CA, USA",
+        "_id": "67db0cd451e9f271f6cdf72e"
+      },
+      "status": "pending",
+      "createdAt": "2025-03-19T18:28:36.392Z",
+      "updatedAt": "2025-03-19T18:28:36.392Z",
+      "lastLoginTime": null
+    },
+    {
+      "_id": "67db0bcb51e9f271f6cdf492",
+      "performingRole": "customer",
+      "fullName": "Solomon",
+      "email": "solomon+16@miniapp.com",
+      "phone": "15555555553",
+      "address": {
+        "streetNumber": "100",
+        "state": "CA",
+        "apartment": "Market Street, San Francisco, CA, USA",
+        "_id": "67db0bcb51e9f271f6cdf493"
+      },
+      "status": "pending",
+      "createdAt": "2025-03-19T18:24:11.434Z",
+      "updatedAt": "2025-03-19T18:24:11.434Z",
+      "lastLoginTime": null
+    },
+    {
+      "_id": "67db0b7051e9f271f6cdf0a4",
+      "performingRole": "customer",
+      "fullName": "Solomon",
+      "email": "solomon+15@miniapp.com",
+      "phone": "15555555552",
+      "address": {
+        "streetNumber": "100",
+        "state": "CA",
+        "apartment": "Market Street, San Francisco, CA, USA",
+        "_id": "67db0b7051e9f271f6cdf0a5"
+      },
+      "status": "pending",
+      "createdAt": "2025-03-19T18:22:40.419Z",
+      "updatedAt": "2025-03-19T18:22:40.419Z",
+      "lastLoginTime": "2025-03-19T18:35:12.032Z"
+    },
+    {
+      "_id": "67db07f651e9f271f6cde5d4",
+      "performingRole": "customer",
+      "fullName": "John",
+      "email": "miniapp.tester01+44@gmail.com",
+      "phone": "10123456782",
+      "address": {
+        "streetNumber": "100",
+        "state": "CA",
+        "apartment": "California Street, San Francisco, CA, USA",
+        "_id": "67db07f651e9f271f6cde5d5"
+      },
+      "status": "active",
+      "createdAt": "2025-03-19T18:07:50.670Z",
+      "updatedAt": "2025-03-19T18:07:50.670Z",
+      "customer": {
+        "_id": "67db092a51e9f271f6cde629",
+        "createdAt": "2025-03-19T18:12:58.058Z",
+        "updatedAt": "2025-03-19T18:12:58.058Z",
+        "__v": 0
+      },
+      "lastLoginTime": null
+    },
+    {
+      "_id": "67db04db51e9f271f6cddc89",
+      "performingRole": "customer",
+      "fullName": "Felps Dock",
+      "email": "miniapp.tester02+2@gmail.com",
+      "phone": "11000000006",
+      "address": {
+        "streetNumber": "100",
+        "state": "GA",
+        "apartment": "2211 Beaver Ruin Road, Norcross, GA, USA",
+        "_id": "67db04db51e9f271f6cddc8a"
+      },
+      "status": "pending",
+      "createdAt": "2025-03-19T17:54:35.764Z",
+      "updatedAt": "2025-03-19T17:54:35.764Z"
+    },
+    {
+      "_id": "67db033d51e9f271f6cddbdd",
+      "performingRole": "customer",
+      "fullName": "John",
+      "email": "john.peter.almas@gmail.com",
+      "phone": "10123456789",
+      "address": {
+        "streetNumber": "100",
+        "state": "CA",
+        "apartment": "California Street, San Francisco, CA, USA",
+        "_id": "67db033d51e9f271f6cddbde"
+      },
+      "status": "pending",
+      "createdAt": "2025-03-19T17:47:41.199Z",
+      "updatedAt": "2025-03-19T17:47:41.199Z",
+      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZGIwMzNkNTFlOWYyNzFmNmNkZGJkZCIsImVtYWlsIjoiamhvbi5wZXRlci5hbG1hc0BnbWFpbC5jb20iLCJwaG9uZSI6IjEwMTIzNDU2Nzg5IiwicGVyZm9ybWluZ1JvbGUiOiJjdXN0b21lciIsImlhdCI6MTc0MjQwNjgxNywiZXhwIjoxNzQyNTc5NjE3fQ.4-gMAL3vohk2v6-64U0Mh4ukDXsgl6BMXiRG5Xz02io",
+      "lastLoginTime": null
+    },
+    {
+      "_id": "67db025f51e9f271f6cddb1e",
+      "performingRole": "customer",
+      "fullName": "Mike J. Tomsom",
+      "email": "miniapp.tester02+1@gmail.com",
+      "phone": "11000000005",
+      "address": {
+        "streetNumber": "100",
+        "state": "WA",
+        "apartment": "660 South Industrial Way, Seattle, WA, USA",
+        "_id": "67db025f51e9f271f6cddb1f"
+      },
+      "status": "active",
+      "createdAt": "2025-03-19T17:43:59.743Z",
+      "updatedAt": "2025-03-19T17:43:59.743Z",
+      "lastLoginTime": "2025-03-20T14:49:04.023Z",
+      "customer": {
+        "_id": "67db028d51e9f271f6cddb27",
+        "createdAt": "2025-03-19T17:44:45.559Z",
+        "updatedAt": "2025-03-19T17:44:45.559Z",
+        "__v": 0
+      }
+    },
+    {
+      "_id": "67dae8be51e9f271f6cdae1d",
+      "performingRole": "customer",
+      "fullName": "Samuel",
+      "email": "solomon+14@miniapp.com",
+      "phone": "12235686535",
+      "address": {
+        "streetNumber": "100",
+        "state": "MD",
+        "apartment": "New Carrollton Station, Hyattsville, MD, USA",
+        "_id": "67dae8be51e9f271f6cdae1e"
+      },
+      "status": "active",
+      "createdAt": "2025-03-19T15:54:38.293Z",
+      "updatedAt": "2025-03-19T15:54:38.293Z",
+      "lastLoginTime": "2025-03-20T00:46:09.770Z",
+      "customer": {
+        "_id": "67dae8df51e9f271f6cdae62",
+        "createdAt": "2025-03-19T15:55:11.122Z",
+        "updatedAt": "2025-03-19T15:55:11.122Z",
+        "__v": 0
+      }
+    },
+    {
+      "_id": "67daa80d61526da6abd55d64",
+      "performingRole": "customer",
+      "fullName": "Samuel Winston",
+      "email": "Samuel+95@miniapp.com",
+      "phone": "12235686464",
+      "address": {
+        "streetNumber": "100",
+        "state": "MD",
+        "apartment": "New Carrollton Station, Hyattsville, MD, USA",
+        "_id": "67daa80d61526da6abd55d65"
+      },
+      "status": "active",
+      "createdAt": "2025-03-19T11:18:37.737Z",
+      "updatedAt": "2025-03-19T11:18:37.737Z",
+      "lastLoginTime": "2025-03-19T18:17:24.271Z",
+      "customer": {
+        "_id": "67daa8a861526da6abd55d70",
+        "createdAt": "2025-03-19T11:21:12.631Z",
+        "updatedAt": "2025-03-19T11:21:12.631Z",
+        "__v": 0
+      }
+    },
+    {
+      "_id": "67da85416f1b76ba5a3b61ca",
+      "performingRole": "customer",
+      "fullName": "Samuel",
+      "email": "Samuel+93@miniapp.com",
+      "phone": "12235689468",
+      "address": {
+        "streetNumber": "100",
+        "state": "DC",
+        "apartment": "New York Avenue Northwest, Washington, DC, USA",
+        "_id": "67da85416f1b76ba5a3b61cb"
+      },
+      "status": "active",
+      "createdAt": "2025-03-19T08:50:09.182Z",
+      "updatedAt": "2025-03-19T08:50:09.182Z",
+      "lastLoginTime": "2025-03-19T10:11:03.830Z",
+      "customer": {
+        "_id": "67da85766f1b76ba5a3b61f2",
+        "createdAt": "2025-03-19T08:51:02.867Z",
+        "updatedAt": "2025-03-19T08:51:02.867Z",
+        "__v": 0
+      }
+    },
+    {
+      "_id": "67d957cdf49e4898bfd12656",
+      "performingRole": "customer",
+      "fullName": "SamuelWinston",
+      "email": "Samuel+43@miniapp.com",
+      "phone": "12323333334",
+      "address": {
+        "streetNumber": "100",
+        "state": "NY",
+        "apartment": "New York State Thruway, Central Valley, NY, USA",
+        "_id": "67d957cdf49e4898bfd12657"
+      },
+      "status": "active",
+      "createdAt": "2025-03-18T11:23:57.565Z",
+      "updatedAt": "2025-03-18T11:23:57.565Z",
+      "customer": {
+        "_id": "67d95839f49e4898bfd1265f",
+        "createdAt": "2025-03-18T11:25:45.608Z",
+        "updatedAt": "2025-03-18T11:25:45.608Z",
+        "__v": 0
+      },
+      "lastLoginTime": null
+    }
+  ]
+}

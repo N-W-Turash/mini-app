@@ -1,0 +1,576 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+    font-size: 16px;
+  }
+
+  body {
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    @apply bg-white;
+  }
+
+  h1 {
+    @apply text-5xl;
+  }
+
+  h2 {
+    @apply text-4xl;
+  }
+
+  h3 {
+    @apply text-3xl;
+  }
+
+  h4 {
+    @apply text-2xl;
+  }
+
+  h5 {
+    @apply text-xl;
+  }
+
+  h6 {
+    @apply text-lg;
+  }
+
+  button {
+    @apply !font-semibold tracking-wide;
+  }
+
+  button:disabled {
+    @apply pointer-events-none;
+  }
+
+  button:disabled > * {
+    @apply opacity-50;
+  }
+
+  button > * {
+    @apply !font-semibold tracking-wide;
+  }
+
+  input,
+  textarea {
+    @apply !placeholder-black/[0.5];
+  }
+
+  ::-webkit-scrollbar {
+    @apply h-[7.5px] w-[7.5px];
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-black/[0.025];
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded bg-secondary/75;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/********** Feedback Notification **********/
+
+.ant-notification-notice-message {
+  @apply !mb-0;
+}
+
+.ant-notification-notice-message {
+  @apply !mb-0;
+}
+
+.ant-notification-notice-description {
+  @apply mt-1;
+}
+
+/********** Feedback Notification **********/
+
+/********** Message **********/
+
+.ant-message-notice-content {
+  @apply !rounded font-semibold;
+}
+
+.ant-message-notice-error .ant-message-notice-content {
+  @apply !bg-error;
+}
+
+.ant-message-custom-content.ant-message-error {
+  @apply text-semi-sm font-semibold text-white;
+}
+
+.ant-message-notice-content .ant-message-custom-content {
+  @apply flex items-center gap-2 text-xs !font-semibold leading-normal;
+}
+
+/********** Message **********/
+
+/********** Dropdown **********/
+
+.ant-dropdown .ant-dropdown-menu {
+  @apply p-0;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item {
+  @apply flex items-center rounded-none px-4 py-2 font-sans;
+}
+
+.ant-dropdown-custom-container
+  .ant-dropdown-menu
+  .ant-dropdown-menu-item:not(:last-child) {
+  @apply border-b border-gray-100;
+}
+
+.ant-dropdown-custom-container .ant-dropdown-menu .ant-dropdown-menu-item {
+  @apply hover:!bg-primary hover:text-white;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item a {
+  @apply font-semibold text-gray-800;
+}
+
+.ant-dropdown-custom-container .ant-dropdown-menu-item .ant-dropdown-menu-title-content {
+  @apply !flex;
+}
+
+.ant-select-dropdown .ant-select-item-option-content {
+  @apply !font-sans;
+}
+
+.ant-select-dropdown-xs .ant-select-item-option-content {
+  @apply !text-[0.75rem] leading-5;
+}
+
+/********** Dropdown **********/
+
+/********** Pagination **********/
+
+.ant-table-pagination.ant-pagination {
+  @apply !mb-0 mt-4;
+}
+
+.ant-pagination .ant-pagination-item {
+  @apply border !border-primary font-semibold;
+}
+
+.ant-pagination .ant-pagination-item-active a {
+  @apply !bg-primary !text-white;
+}
+
+.ant-pagination-custom .ant-pagination-options {
+  @apply w-[100px];
+}
+
+.ant-pagination-custom .ant-pagination-options .ant-pagination-options-size-changer {
+  @apply w-full;
+}
+
+.pagination-container .ant-select-mini .ant-select-selector {
+  @apply !border-black/15 !bg-transparent;
+}
+
+.ant-pagination-custom .ant-pagination-prev.ant-pagination-disabled > *,
+.ant-pagination-custom .ant-pagination-next.ant-pagination-disabled > * {
+  @apply pointer-events-none opacity-50;
+}
+
+/********** Pagination **********/
+
+/********** Table **********/
+
+.ant-table .ant-table-custom-row td {
+  @apply !py-2 !pl-3 !pr-2.5 font-medium;
+}
+
+.ant-table-thead > tr > th {
+  @apply !py-2 !pl-3 leading-normal;
+}
+
+.ant-table-body {
+  /* scrollbar-width: thin; */
+  scrollbar-color: auto;
+}
+
+.ant-table-body::-webkit-scrollbar {
+  @apply w-1.5;
+}
+
+.ant-table-content::-webkit-scrollbar-thumb,
+.ant-table-body::-webkit-scrollbar-track {
+  @apply bg-white;
+}
+
+.ant-table-content::-webkit-scrollbar-thumb,
+.ant-table-body::-webkit-scrollbar-thumb {
+  @apply rounded bg-secondary/40;
+}
+
+.ant-table-title {
+  @apply flex flex-wrap items-center justify-between gap-2 !rounded-se !rounded-ss !border !border-light-ash !border-b-transparent bg-white !px-3 !py-4;
+}
+
+.ant-table-cell {
+  @apply !text-xs;
+}
+
+/********** Table **********/
+
+/********** Sidebar Menu **********/
+
+.ant-menu-custom.ant-menu-dark.ant-menu-inline {
+  @apply bg-transparent;
+}
+
+.ant-menu-custom.ant-menu-light.ant-menu-inline {
+  @apply bg-transparent;
+}
+
+.ant-menu-custom.ant-menu-light {
+  @apply bg-transparent;
+}
+
+.ant-menu-custom {
+  @apply !pt-2;
+}
+
+.ant-menu-custom .ant-menu-item {
+  @apply !rounded-none;
+}
+
+.ant-menu-custom.ant-menu-inline {
+  @apply !border-e-0;
+}
+
+.ant-menu-custom.ant-menu-inline .ant-menu-item,
+.ant-menu-custom.ant-menu-inline .ant-menu-submenu-title {
+  @apply mb-0 me-0 ms-0 mt-0 w-full;
+}
+
+.ant-menu-custom > * .ant-menu-title-content,
+.ant-menu-custom > * .ant-menu-title-content a {
+  @apply text-xs font-semibold leading-normal;
+}
+
+.ant-menu-custom > * .ant-menu-title-content a {
+  @apply !transition-none;
+}
+
+.ant-menu .ant-menu-submenu {
+  @apply !rounded-none;
+}
+
+.ant-menu-custom
+  .ant-menu-submenu-selected:not(.ant-menu-submenu-open)
+  .ant-menu-submenu-title {
+  @apply !text-black;
+}
+
+.ant-menu-custom .ant-menu-submenu-open.ant-menu-submenu-selected {
+  @apply bg-primary text-white;
+}
+
+.ant-menu-custom .ant-menu-sub .ant-menu-item-selected {
+  @apply bg-primary/10 text-primary;
+}
+
+.ant-menu-custom .ant-menu-item,
+.ant-menu-custom .ant-menu-submenu {
+  @apply !mb-0.5;
+}
+
+.ant-menu-custom
+  .ant-menu-item:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected):hover {
+  @apply hover:text-black;
+}
+
+.ant-menu-custom .ant-menu-sub .ant-menu-item {
+  @apply !h-[32px] leading-[32px];
+}
+
+.ant-menu-custom .ant-menu-sub > * .ant-menu-title-content a {
+  @apply text-[0.70rem];
+}
+
+.ant-layout-sider:active::-webkit-scrollbar-thumb,
+.ant-layout-sider:focus::-webkit-scrollbar-thumb,
+.ant-layout-sider:hover::-webkit-scrollbar-thumb {
+  @apply visible !transition-visibility !duration-500 ease-in;
+}
+
+.ant-layout-sider::-webkit-scrollbar-thumb {
+  @apply invisible rounded bg-black/[0.1];
+}
+
+.ant-layout-sider::-webkit-scrollbar {
+  @apply h-1 w-0;
+}
+
+.ant-layout-sider::-webkit-scrollbar-track {
+  @apply invisible bg-transparent;
+}
+
+/********** Sidebar Menu **********/
+
+/********** Transition **********/
+
+.transition-node-enter {
+  @apply scale-90 opacity-0;
+}
+
+.transition-node-enter-active {
+  transform: translateX(0px);
+  @apply opacity-100 transition duration-500;
+}
+
+.transition-node-exit {
+  @apply opacity-100;
+}
+
+.transition-node-exit-active {
+  @apply scale-90 opacity-0 transition duration-500;
+}
+
+.fade-appear {
+  @apply opacity-0;
+}
+
+.fade-appear-active {
+  @apply opacity-100 transition duration-500;
+}
+
+.fade-enter {
+  @apply opacity-0;
+}
+
+.fade-enter-active {
+  @apply opacity-100 transition duration-500;
+}
+
+.fade-exit {
+  @apply opacity-100;
+}
+
+.fade-exit-active {
+  @apply scale-90 opacity-0 transition duration-500;
+}
+
+/********** Transition **********/
+
+/********** Form **********/
+
+.ant-form-item .ant-form-item-label label,
+.ant-form-item .ant-form-item-label label span {
+  @apply !text-xs font-medium text-black/90;
+}
+
+/********** Form **********/
+
+/********** Select **********/
+
+.ant-select-selector {
+  @apply !shadow-none;
+}
+
+.ant-select-item-option-content {
+  @apply font-medium leading-normal;
+}
+
+.ant-select-selection-item {
+  @apply !font-medium;
+}
+
+.ant-select-mini .ant-select-selection-item {
+  @apply text-xs;
+}
+
+.ant-select-mini .ant-select-selection-placeholder {
+  @apply text-xs font-medium;
+}
+
+.ant-select-custom-bg .ant-select-selection-item {
+  @apply text-white;
+}
+
+/********** Select **********/
+
+/********** Upload **********/
+
+.ant-upload-custom .ant-upload-drag {
+  @apply !cursor-auto !border-2 !border-dashed !bg-transparent;
+}
+
+.ant-upload-custom.ant-upload-custom-error .ant-upload-drag {
+  @apply !border-error;
+}
+
+.ant-upload-custom .ant-upload-btn {
+  @apply cursor-auto;
+}
+
+.ant-upload-wrapper.ant-upload-avatar {
+  @apply leading-none;
+}
+
+/********** Upload **********/
+
+/********** Form **********/
+
+.ant-form-item-with-help .ant-form-item-explain {
+  @apply mt-1;
+}
+
+/********** Form **********/
+
+/********** Tooltip **********/
+
+.ant-tooltip-inner {
+  @apply font-medium;
+}
+
+/********** Tooltip **********/
+
+/********** Modal **********/
+
+.ant-modal .ant-modal-content {
+  @apply !p-4 sm:!p-5;
+}
+
+/********** Modal **********/
+
+/********** Image **********/
+
+.image-preview-container {
+  @apply flex w-full flex-wrap items-center gap-4;
+}
+
+/********** Image **********/
+
+/********** DatePicker **********/
+
+.ant-picker-custom.ant-picker {
+  @apply !bg-white;
+}
+
+.ant-picker-custom.ant-picker .ant-picker-input {
+  @apply flex;
+}
+
+.ant-picker-custom.ant-picker .ant-picker-input input {
+  @apply text-black;
+}
+
+.ant-picker-custom.ant-picker.ant-picker-status-error {
+  @apply !bg-white;
+}
+
+.ant-picker-custom-popup .ant-picker-footer {
+  @apply hidden;
+}
+
+.ant-picker-custom-popup .ant-picker-cell-inner {
+  @apply !rounded-semi-sm font-medium;
+}
+
+.ant-picker-custom-popup .ant-picker-content th {
+  @apply !font-medium;
+}
+
+.ant-picker-custom-popup .ant-picker-cell {
+  @apply !py-1;
+}
+
+.ant-picker-custom-popup .ant-picker-body {
+  @apply !px-2.5;
+}
+
+.ant-picker-custom-popup .ant-picker-cell-disabled .ant-picker-cell-inner {
+  @apply before:!rounded-semi-sm before:!border-black/10;
+}
+
+/********** TimePicker **********/
+
+.ant-time-picker-custom .ant--picker-input input {
+  @apply text-xs leading-normal !placeholder-black/[0.2];
+}
+
+.ant-picker.ant-time-picker-small .ant-picker-input > input {
+  @apply !text-xs;
+}
+
+.ant-time-picker-custom.ant-picker-range .ant-picker-input input {
+  @apply text-xs font-medium leading-normal !placeholder-black/[0.5];
+}
+
+.ant-time-picker-custom-popup .ant-picker-dropdown .ant-picker-time-panel-column {
+  @apply text-xs;
+}
+
+.ant-time-picker-custom-popup .ant-picker-time-panel-cell-inner {
+  @apply text-xs font-medium;
+}
+
+.ant-time-picker-custom-popup .ant-picker-time-panel-column {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.05) transparent !important;
+}
+
+.ant-time-picker-custom-popup .ant-picker-time-panel {
+  @apply w-[180px];
+}
+
+.ant-time-picker-custom-popup .ant-picker-content {
+  @apply !p-1.5;
+}
+
+.ant-time-picker-custom-popup
+  .ant-picker-time-panel-cell-selected
+  .ant-picker-time-panel-cell-inner {
+  @apply !bg-green-500 text-white;
+}
+
+.ant-time-picker-custom-popup
+  .ant-picker-time-panel-cell-selected
+  .ant-picker-time-panel-cell-inner {
+  @apply !text-white;
+}
+
+.ant-picker-range .ant-picker-active-bar {
+  @apply hidden;
+}
+
+/********** TimePicker **********/
+
+/********** Collapse **********/
+
+.collapse-container .ant-collapse-expand-icon {
+  @apply !ps-1.5;
+}
+
+.collapse-container .ant-collapse-expand-icon svg {
+  @apply transition duration-200 ease-linear;
+}
+
+.collapse-container .ant-collapse-extra {
+  @apply !leading-normal;
+}
+
+/********** Collapse **********/
+
+/********** Utility **********/
+
+.xs > * {
+  @apply !text-xs;
+}
+
+/********** Utility **********/
